@@ -4,12 +4,11 @@ import "../tailwind.css";
 import "react-clock/dist/Clock.css";
 import "react-time-picker/dist/TimePicker.css";
 
-function TimePick() {
-  const [value, onChange] = useState("10:00");
+function TimePick(props) {
 
   return (
     <div className="mt-2 rounded border border-lightgray w-4/5 px-4 py-4">
-      <TimePicker onChange={onChange} value={value} />
+      <TimePicker onChange={(val) => props?.fetchTime(val)} value={props?.time} />
     </div>
   );
 }

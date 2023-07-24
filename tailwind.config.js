@@ -1,6 +1,6 @@
 // tailwind.config.js
 module.exports = {
-  purge: ['./src/App.js'],
+  purge: ['./src/pages/Profile.js', './src/pages/UpdateProfile.js', './src/components/Header.js', './src/pages/BookSession.js'],
   darkMode: false,
   theme: {
     extend: {
