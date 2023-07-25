@@ -31,7 +31,7 @@ function Header(props) {
                 src={profileImg}
                 alt="Image"
                 onClick={() => navigate('/profile')}
-                class="h-250 w-250 rounded-tl rounded-br"
+                class="h-250 cursor-pointer w-250 rounded-tl rounded-br"
               />
             </div>
           </nav>

@@ -45,7 +45,7 @@ function Profile() {
         <Header />
       </div>
 
-      <div class="w-4/5 mx-auto mt-10">
+      <div class="w-4/5 mx-auto mt-30">
         <div class="flex lg:flex-1">
           <p class="-m-1.5 p-1.5 text-logoColor text-logoSize">
             Create a Demo Request

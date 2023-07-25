@@ -39,7 +39,7 @@ function Profile() {
         <Header />
       </div>
 
-      <div class="w-4/5 mx-auto mt-20">
+      <div class="w-4/5 mx-auto mt-30">
         <div class="flex lg:flex-1">
           <div class="w-1/2">
             <p href="#" class="-m-1.5 p-1.5 text-logoColor text-logoSize">
@@ -118,7 +118,9 @@ function Profile() {
               <p class="text-base">Enter Subject</p>
             </div>
             <div class="w-1/2">
-              <p class="text-base">{data[0]?.subject}</p>
+              <p class="text-base">
+                {/* {data[0]?.subject} */}
+                </p>
             </div>
           </div>
 
@@ -127,7 +129,9 @@ function Profile() {
               <p class="text-base">Grade / Class*</p>
             </div>
             <div class="w-1/2">
-              <p class="text-base">{data[0]?.grade}</p>
+              <p class="text-base">
+                {/* {data[0]?.grade} */}
+              </p>
             </div>
           </div>
 
@@ -136,7 +140,7 @@ function Profile() {
               <p class="text-base">Date</p>
             </div>
             <div class="w-1/2">
-              {data[0]?.date}
+              {/* {data[0]?.date} */}
             </div>
           </div>
           <div class="flex mt-5">
@@ -144,7 +148,7 @@ function Profile() {
               <p class="text-base">Time</p>
             </div>
             <div class="w-1/2">
-              {data[0]?.time}
+              {/* {data[0]?.time} */}
             </div>
           </div>
         </div>
